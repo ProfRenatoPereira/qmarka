@@ -1,0 +1,373 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_image_desktop": "assets/img/Desktop/Imagens Cards/Camiseta.png",
+      "product_image_tablet": "assets/img/Tablet/Imagens Cards/camiseta.png",
+      "product_image_mobile": "assets/img/Mobile/Imagens cards/Card camiseta.png",
+      "product_label": "Camiseta Conforto",
+      "product_description": "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+      "product_price": "70,00",
+      "product_promotional_price": "59,90",
+      "seller_info": "riachuelo",
+      "category": "Camisetas",
+      "tag01": "",
+      "color": [
+        {
+          "name": "black"
+        },
+        {
+          "name": "white"
+        },
+        {
+          "name": "blue"
+        }
+      ],
+      "size": [
+        {
+          "name": "P"
+        },
+        {
+          "name": "PP"
+        },
+        {
+          "name": "M"
+        },
+        {
+          "name": "G"
+        },
+        {
+          "name": "GG"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "product_image_desktop": "assets/img/Desktop/Imagens Cards/Calça.png",
+      "product_image_tablet": "assets/img/Tablet/Imagens Cards/calça.png",
+      "product_image_mobile": "assets/img/Mobile/Imagens cards/Card calça.png",
+      "product_label": "Calça Alfaiataria",
+      "product_description": "Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!",
+      "product_price": "180,00",
+      "product_promotional_price": "169,95",
+      "seller_info": "riachuelo",
+      "category": "Calças",
+      "tag01": "true",
+      "color": [
+        {
+          "name": "black"
+        },
+        {
+          "name": "white"
+        },
+        {
+          "name": "pink"
+        }
+      ],
+      "size": [
+        {
+          "name": "P"
+        },
+        {
+          "name": "PP"
+        },
+        {
+          "name": "M"
+        },
+        {
+          "name": "G"
+        },
+        {
+          "name": "GG"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "product_image_desktop": "assets/img/Desktop/Imagens Cards/Tenis.png",
+      "product_image_tablet": "assets/img/Tablet/Imagens Cards/tenis.png",
+      "product_image_mobile": "assets/img/Mobile/Imagens cards/Card tenis.png",
+      "product_label": "Tênis Chunky",
+      "product_description": "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
+      "product_price": "250,00",
+      "product_promotional_price": "250,00",
+      "seller_info": "riachuelo",
+      "category": "Calçados",
+      "tag01": "true",
+      "color": [
+        {
+          "name": "black"
+        },
+        {
+          "name": "white"
+        },
+        {
+          "name": "blue"
+        }
+      ],
+      "size": [
+        {
+          "name": "P"
+        },
+        {
+          "name": "PP"
+        },
+        {
+          "name": "M"
+        },
+        {
+          "name": "G"
+        },
+        {
+          "name": "GG"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "product_image_desktop": "assets/img/Desktop/Imagens Cards/Jaqueta.png",
+      "product_image_tablet": "assets/img/Tablet/Imagens Cards/jaqueta jeans.png",
+      "product_image_mobile": "assets/img/Mobile/Imagens cards/Card jaqueta jeans.png",
+      "product_label": "Jaqueta Jeans",
+      "product_description": "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+      "product_price": "150,00",
+      "product_promotional_price": "150,00",
+      "seller_info": "riachuelo",
+      "category": "Casacos",
+      "tag01": "true",
+      "color": [
+        {
+          "name": "black"
+        },
+        {
+          "name": "white"
+        },
+        {
+          "name": "blue"
+        }
+      ],
+      "size": [
+        {
+          "name": "P"
+        },
+        {
+          "name": "PP"
+        },
+        {
+          "name": "M"
+        },
+        {
+          "name": "G"
+        },
+        {
+          "name": "GG"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "product_image_desktop": "assets/img/Desktop/Imagens Cards/óculos.png",
+      "product_image_tablet": "assets/img/Tablet/Imagens Cards/óculos.png",
+      "product_image_mobile": "assets/img/Mobile/Imagens cards/Cards óculos.png",
+      "product_label": "Óculos Redondo",
+      "product_description": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
+      "product_price": "120,00",
+      "product_promotional_price": "99,90",
+      "seller_info": "riachuelo",
+      "category": "Óculos",
+      "tag01": "",
+      "color": [
+        {
+          "name": "black"
+        },
+        {
+          "name": "white"
+        },
+        {
+          "name": "blue"
+        }
+      ],
+      "size": [
+        {
+          "name": "P"
+        },
+        {
+          "name": "PP"
+        },
+        {
+          "name": "M"
+        },
+        {
+          "name": "G"
+        },
+        {
+          "name": "GG"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "product_image_desktop": "assets/img/Desktop/Imagens Cards/Bolsa.png",
+      "product_image_tablet": "assets/img/Tablet/Imagens Cards/bolsa.png",
+      "product_image_mobile": "assets/img/Mobile/Imagens cards/Card bolsa.png",
+      "product_label": "Bolsa coringa",
+      "product_description": "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+      "product_price": "120,00",
+      "product_promotional_price": "120,00",
+      "seller_info": "riachuelo",
+      "category": "Bolsas",
+      "tag01": "",
+      "color": [
+        {
+          "name": "black"
+        },
+        {
+          "name": "white"
+        },
+        {
+          "name": "blue"
+        }
+      ],
+      "size": [
+        {
+          "name": "P"
+        },
+        {
+          "name": "PP"
+        },
+        {
+          "name": "M"
+        },
+        {
+          "name": "G"
+        },
+        {
+          "name": "GG"
+        }
+      ]
+    },
+    {
+      "product_image_desktop": "https://cdn-images.farfetch-contents.com/20/31/54/15/20315415_51002064_1000.jpg",
+      "product_image_tablet": "https://cdn-images.farfetch-contents.com/20/31/54/15/20315415_51002064_1000.jpg",
+      "product_image_mobile": "https://cdn-images.farfetch-contents.com/20/31/54/15/20315415_51002064_1000.jpg",
+      "product_label": "Camisa com estampa gráfica",
+      "product_description": "colarinho cubano, fechamento frontal por botões, mangas longas e etc.",
+      "product_price": "122,00",
+      "product_promotional_price": "122,00",
+      "seller_info": "Nanushka",
+      "category": "camisetas",
+      "tag01": "true",
+      "color": [
+        {
+          "name": "Black"
+        },
+        {
+          "name": "White"
+        },
+        {
+          "name": "Blue"
+        }
+      ],
+      "size": [
+        {
+          "name": "P"
+        },
+        {
+          "name": "PP"
+        },
+        {
+          "name": "M"
+        },
+        {
+          "name": "G"
+        },
+        {
+          "name": "GG"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "product_image_desktop": "https://cdn-images.farfetch-contents.com/15/98/07/37/15980737_29852719_1000.jpg",
+      "product_image_tablet": "https://cdn-images.farfetch-contents.com/15/98/07/37/15980737_29852719_1000.jpg",
+      "product_image_mobile": "https://cdn-images.farfetch-contents.com/15/98/07/37/15980737_29852719_1000.jpg",
+      "product_label": "Polo Ralph Lauren Jaqueta",
+      "product_description": "Jaqueta matelassê com capuz e logo Azul marinho de poliéster reciclado, Polo Ralph Lauren.",
+      "product_price": "3126,00",
+      "product_promotional_price": "3026,00",
+      "seller_info": "Polo",
+      "category": "Casacos",
+      "tag01": "true",
+      "color": [
+        {
+          "name": "Preto"
+        },
+        {
+          "name": "Azul marinho"
+        },
+        {
+          "name": "Cinza"
+        }
+      ],
+      "size": [
+        {
+          "name": "P"
+        },
+        {
+          "name": "PP"
+        },
+        {
+          "name": "M"
+        },
+        {
+          "name": "G"
+        },
+        {
+          "name": "GG"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "product_image_desktop": "https://cdn-images.farfetch-contents.com/12/56/23/29/12562329_11915047_1000.jpg",
+      "product_image_tablet": "https://cdn-images.farfetch-contents.com/12/56/23/29/12562329_11915047_1000.jpg",
+      "product_image_mobile": "https://cdn-images.farfetch-contents.com/12/56/23/29/12562329_11915047_1000.jpg",
+      "product_label": "Gucci Bolsa GG marmonte",
+      "product_description": "A melhor bolsa da Gucci que você poderia querer.",
+      "product_price": "13990",
+      "product_promotional_price": "13990",
+      "seller_info": "Gucci",
+      "category": "Bolsas",
+      "tag01": "true",
+      "color": [
+        {
+          "name": "Preto"
+        },
+        {
+          "name": "Cinza"
+        },
+        {
+          "name": "Vermelho"
+        }
+      ],
+      "size": [
+        {
+          "name": "P"
+        },
+        {
+          "name": "PP"
+        },
+        {
+          "name": "M"
+        },
+        {
+          "name": "G"
+        },
+        {
+          "name": "GG"
+        }
+      ],
+      "id": 9
+    }
+  ]
+}

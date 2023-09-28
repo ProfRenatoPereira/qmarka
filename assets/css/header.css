@@ -1,0 +1,205 @@
+.navbar_container{
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    height: 58px;
+    align-items: center;
+    gap: 20px;
+}
+
+.left_components{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    height: 18px;
+    width: 125.7px;
+    margin-left: 22px;
+    background-image: url("../img/Mobile/Logo_mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu{
+    display: none;
+}
+
+.hamb > i{
+    margin-right: 21px;
+}
+
+.hamb_menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.hamb_menu{
+    background-color: var(--color-dark-grey);
+    width: 144px;
+    height: 197px;
+    align-self: baseline;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.hamb_menu.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.hamb_menu > i {
+    margin-left: 5em;
+    margin-top: 1em;
+}
+
+.hamb_menu > ul > li{
+    padding: 8% 0;
+    margin: auto;
+    width: 70%;
+    border-bottom: 1px solid white;
+}
+
+.hamb_menu > ul > li:nth-child(4){
+    border-bottom: none;
+}
+
+.menu_selected {
+    color: var(--color-lime)!important;
+    font-weight: 700;
+}
+
+.search{
+    display: none;
+}
+
+.search_mobile{
+    display: flex;
+    margin: 24px 27px;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 58px;
+}
+
+.search_mobile > .search_form > .search_input{
+    width: 225.6px;
+    height: 37px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.search_mobile > .search_form > .search_input::placeholder{
+    padding-left: 1em;
+    font-size: 13px;
+}
+
+.search_button{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    width: 88.42px;
+}
+
+.search_button > p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Media Querry for 768 px */
+@media screen and (min-width: 768px) {
+
+    main{
+        padding-top: 58px;
+    }
+
+    .logo{
+        background-image: url("../img/Tablet/Logo_tablet.png");
+        width: 100px;
+        height: 24px;
+    }
+
+    .hamb, .hamb_menu, .search_mobile{
+        display: none;
+
+    }
+
+    .menu{
+        display: flex;
+        font-size: 13px;
+        font-weight: 300;
+        gap: 20px;
+    }
+
+    .search{
+        display: flex;
+        gap: 16px;
+        margin-right: 23px;
+    }
+
+    .menu > li > a {
+        color: white;
+        text-decoration:none;
+    }
+
+    .search > .search_form > .search_input{
+        width: 135px;
+        height: 38px;
+    }
+
+    .search_button{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        width: 67px;
+    }
+
+    .search_button > p {
+        font-size: 13px;
+    }
+
+    .search_input::placeholder{
+        padding-left: 1em;
+    }
+
+}
+
+/* Media Querry for 1440 px */
+@media screen and (min-width: 1440px){
+    
+    .logo{
+        background-image: url("../img/Desktop/Logo_desktop.png");
+        width: 137px;
+        height: 32px;
+    }
+
+    .menu{
+        display: flex;
+        font-size: 16px;
+        font-weight: 300;
+        gap: 40px;
+    }
+
+    .navbar_container{
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .search > .search_form > .search_input{
+        width: 145px;
+        height: 38px;
+    }
+
+}
+

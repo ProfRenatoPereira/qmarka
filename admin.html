@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora - Admin Painel</title>
+
+    <!-- Tag Meta, for SEO max 160 characters -->
+    <meta name="description" content="Meteora, o melhor site de moda com as melhores roupas e calçados para você ficar incrível!">
+    <meta name="author" content="Marcos Bento">
+
+    <!-- Link to Icon -->
+    <link rel="icon" type="image/png" href="assets/img/Favicon-64px.png">
+
+    <!-- Link to Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- Link to font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link to style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Connectin Font Awesome with my login to insert some icones -->
+    <script src="https://kit.fontawesome.com/e36fc46d40.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="adminPanel">
+    <header class="adminPanel_header">
+        <i class="fa-solid fa-house fa-lg adminPanel_button_home"></i>
+        <h1 class="adminPanel_tittle">Painel de Administrador - Cadastro de produtos</h1>
+        <i class="fa-solid fa-square-plus fa-lg adminPanel_button_add"></i>
+    </header>
+
+    <main class="adminPanel_main">
+
+        <section class="adminPanel_search">
+            <div class="search admin_search">
+                <form class="search_form " action="">
+                    <input class="search_input admin_search" type="text" name="search" placeholder="Digite o produto" data-search>
+                </form>
+        
+                <button class="search_button" data-search-button>
+                    <p>Buscar</p>
+                </button>
+            </div>
+        </section>
+
+        <section class="adminPanel_products">
+            <div class="adminPanel_left_components">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Produtos</li>
+                </ul>
+            </div>
+
+            <div class="adminPanel_right_components" data-products-container>
+                    <div class="adminPanel_right_components_titles">
+                        <h2>Editar</h2>
+                        <h2>imagem</h2>
+                        <h2>Titulo</h2>
+                        <h2>Preço</h2>
+                        <h2>Preço Promocional</h2>
+                        <h2>Categoria</h2>
+                        <h2>Deletar</h2>
+                    </div>
+                    <!-- Products Goes here -->
+            </div>
+        </section>
+
+        <!-- link do scripts in body -->
+        <script type="module" src="assets/js/adminPanel.js"></script>
+    </main>
+
+    <footer>
+        <p class="footer_text">2023 © Desenvolvido por Marcos Bento | Projeto fictício sem fins comerciais.</p>
+    </footer>
+</body>
+
+</html>

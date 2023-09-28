@@ -1,0 +1,23 @@
+{
+  "name": "projeto-alura-challenge-2023---meteora",
+  "version": "1.0.0",
+  "description": "Projeto para aperfeiçoar habilidades. Desafio Alura projeto Meteora",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcos-bento/Alura-Challenge-Front-End-2.git"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcos-bento/Alura-Challenge-Front-End-2/issues"
+  },
+  "homepage": "https://github.com/marcos-bento/Alura-Challenge-Front-End-2#readme"
+}

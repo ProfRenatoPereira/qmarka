@@ -1,0 +1,146 @@
+
+.newsletter{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter_container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 1px solid black;
+    margin: 28.5px 26.5px;
+    padding-bottom: 40px;
+}
+
+.newsletter_text{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 24px 24px 0 24px;
+}
+
+.newsletter_form{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter_input{
+    width: 194px;
+    height: 36px;
+    border: 1px solid black;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+.newsletter_input_error{
+    border: 1px solid red;
+}
+
+.newsletter_input::placeholder{
+    padding-left: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.newsletter_button{
+    background-color: var(--color-purple);
+    color: white;
+    width: 84px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter_error_alert {
+    margin: -20px 0 0 calc(100%/3);
+    color: red;
+    display: none;
+}
+
+/* Newsletter Modal */
+
+.modal_newsletter{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_outer_content_newsletter{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.news_close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.news_close:hover,
+.news_close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal_content_newsletter {
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 6px;
+    box-shadow: 0px 4px 15px 0px rgba(44, 63, 88, 0.35);
+}
+
+/* Media Query for 768px */
+@media screen and (min-width: 768px) {
+
+    .newsletter_text{
+        margin: 0 60px;
+        padding-left: 70px;
+        padding-right: 70px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .newsletter_input{
+        width: 320px;
+    }
+
+    .modal_content_newsletter{
+        height: auto;
+    }
+
+}
+
+/* Media Query for 1440px */
+@media screen and (min-width: 1440px) {
+
+    .newsletter_text{
+        margin: 0 20px;
+        padding: 0 20px;
+        padding-top: 40px;
+    }
+
+    .newsletter_container{
+        width: 729px;
+    }
+
+    .newsletter_input{
+        width: 420px;
+    }
+
+}

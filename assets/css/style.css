@@ -1,0 +1,43 @@
+/* Importing CSS files from index/Homepage */
+@import url("header.css");
+@import url("banner.css");
+@import url("category.css");
+@import url("infos.css");
+@import url("products.css");
+@import url("footer.css");
+@import url("newsletter.css");
+@import url("modal.css");
+
+/* Importing CSS files from stores page */
+@import url("stores/stores.css");
+
+/* Importing CSS files from news page */
+@import url("news/news.css");
+
+/* Importing CSS files from deals page */
+@import url("deals/deals.css");
+
+/* Importing CSS files from Admin Panel */
+@import url("admin/admin.css");
+@import url("admin/adminPost.css");
+
+/* Setting the principal variables */
+:root{
+    --main-font: 'Inter';
+    --color-black: #000000;
+    --color-grey: #CCCCCC;
+    --color-grey-2: #ADB5BD;
+    --color-almost-black: #292129;
+    --color-yellow: #DAFF01;
+    --color-purple: #9353FF;
+    --color-magenta: #EE6471;
+    --color-orange: #F87F46;
+    --color-lime: #DAFF01;
+    --color-dark-grey: #343A40;
+    --color-almos-black-2: #212529;
+}
+
+body{
+    font-family: var(--main-font);
+    color:var(--color-almost-black) ;
+}

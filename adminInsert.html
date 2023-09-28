@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora - Adicionar produto</title>
+
+    <!-- Tag Meta, for SEO max 160 characters -->
+    <meta name="description" content="Meteora, o melhor site de moda com as melhores roupas e calçados para você ficar incrível!">
+    <meta name="author" content="Marcos Bento">
+
+    <!-- Link to Icon -->
+    <link rel="icon" type="image/png" href="assets/img/Favicon-64px.png">
+
+    <!-- Link to Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- Link to font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link to style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Connectin Font Awesome with my login to insert some icones -->
+    <script src="https://kit.fontawesome.com/e36fc46d40.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="adminPanel">
+    <header class="adminPanel_header">
+        <i class="fa-solid fa-house fa-lg adminPanel_button_home"></i>
+        <h1 class="adminPanel_tittle">Painel de Administrador - Adicionar produto</h1>
+        <i class="fa-solid fa-square-plus fa-lg adminPanel_button_inactive"></i>
+    </header>
+
+    <main class="adminPanel_main">
+
+        <section class="adminPanel_products">
+            <div class="adminPanel_left_components">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="admin.html">Produtos</a></li>
+                    <li>Cadastro de produtos</li>
+                </ul>
+            </div>
+
+            <div class="adminPanel_right_components">
+                <h2 class="adminPanel_product_title">Preencha os dados do produto a ser cadastrado:</h2>
+
+                <div class="adminPanel_post">
+                    <div class="adminPanel_forms_container" data-post-products>
+                        <form class="adminPanel_form">
+                            <label class="form_label">Nome do produto</label>
+                            <input class="form_add_product form_product_name" type="text" placeholder="Digite o nome do produto" data-name>
+                        </form>
+        
+                        <form class="adminPanel_form">
+                            <label class="form_label">Endereço da imagem</label>
+                            <input class="form_add_product form_product_image" type="text" placeholder="Digite o endereço da imagem" data-image-url>
+                        </form>
+
+                        <div class="image_mobile" data-image-mobile>
+
+                        </div>
+        
+                        <label class="form_label">Categoria do produto</label>
+                        <select name="" id="" class="dropdown_category form_add_product" data-category>
+                            <option value="Camisetas">Camisetas</option>
+                            <option value="Calças">Calças</option>
+                            <option value="Calçados">Calçados</option>
+                            <option value="Casacos">Casacos</option>
+                            <option value="Óculos">Óculos</option>
+                            <option value="Bolsas">Bolsas</option>
+                        </select>
+        
+                        <form class="adminPanel_form">
+                            <label class="form_label">Descrição do produto</label>
+                            <input class="form_add_product form_product_description" type="text" placeholder="Digite a descrição" data-description>
+                        </form>
+
+                        <form class="adminPanel_form">
+                            <label class="form_label">Vendedor</label>
+                            <input class="form_add_product form_product_seller" type="text" placeholder="Digite o vendedor (Ex: Riachuelo)" data-seller>
+                        </form>
+        
+                        <form class="adminPanel_form">
+                            <label class="form_label">Preço cheio</label>
+                            <input class="form_add_product form_product_price" type="text" placeholder="Digite o preço cheio" data-price>
+                        </form>
+                        
+                        <div><input type="checkbox" data-promotional-checkbox><label>Preço promocional?</label></div>
+    
+                        <form class="adminPanel_form form_product_promocional_price" data-promotional-area>
+                            <label class="form_label">Preço promocional</label>
+                            <input class="form_add_product " type="text" placeholder="Digite o preço promocional" data-promotional-price>
+                        </form>
+        
+                        <form class="adminPanel_form">
+                            <label class="form_label">Opção de cor:</label>
+                            <input class="form_add_product form_product_color" type="text" placeholder="Digite a opção de cor 1" data-color-01>
+                        </form>
+    
+                        <form class="adminPanel_form">
+                            <label class="form_label">Opção de cor:</label>
+                            <input class="form_add_product form_product_color" type="text" placeholder="Digite a opção de cor 2" data-color-02>
+                        </form>
+    
+                        <form class="adminPanel_form">
+                            <label class="form_label">Opção de cor:</label>
+                            <input class="form_add_product form_product_color" type="text" placeholder="Digite a opção de cor 3" data-color-03>
+                        </form>
+
+                        <form class="adminPanel_form">
+                            <label class="form_label">Opção de tamanho:</label>
+                            <input class="form_add_product form_product_size" type="text" placeholder="Digite a opção de tamanho 1" data-size-01>
+                        </form>
+
+                        <form class="adminPanel_form">
+                            <label class="form_label">Opção de tamanho:</label>
+                            <input class="form_add_product form_product_size" type="text" placeholder="Digite a opção de tamanho 2" data-size-02>
+                        </form>
+
+                        <form class="adminPanel_form">
+                            <label class="form_label">Opção de tamanho:</label>
+                            <input class="form_add_product form_product_size" type="text" placeholder="Digite a opção de tamanho 3" data-size-03>
+                        </form>
+
+                        <form class="adminPanel_form">
+                            <label class="form_label">Opção de tamanho:</label>
+                            <input class="form_add_product form_product_size" type="text" placeholder="Digite a opção de tamanho 4" data-size-04>
+                        </form>
+
+                        <form class="adminPanel_form">
+                            <label class="form_label">Opção de tamanho:</label>
+                            <input class="form_add_product form_product_size" type="text" placeholder="Digite a opção de tamanho 5" data-size-05>
+                        </form>
+                    </div>
+
+                    <div class="adminPanel_image_container" data-image>
+                
+                    </div>
+
+                </div>
+
+                <div class="container">
+                    <button class="button_post_product" data-add-product>Cadastrar produto</button>
+                </div>
+
+                <div class="container">
+                    <button class="button_post_product display_none" data-edit-product>Atualizar produto</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- link do scripts in body -->
+        <script type="module" src="assets/js/insertProduct.js"></script>
+    </main>
+
+    <footer>
+        <p class="footer_text">2023 © Desenvolvido por Marcos Bento | Projeto fictício sem fins comerciais.</p>
+    </footer>
+</body>
+
+</html>

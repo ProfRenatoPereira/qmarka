@@ -1,0 +1,130 @@
+
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 28px 48px 28px;
+    align-items: center;
+}
+
+.products_title{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.products_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(323px));
+    gap: 30px;
+}
+
+.product_card{
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    width: 323px;
+}
+
+.product_image_mobile{
+    width: 323px;
+    height: 402px;
+    display: block;
+}
+
+.product_image_tablet, .product_image_desktop{
+    display: none;
+}
+
+.product_label{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 13px 16px;
+}
+
+.product_description{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    height: 45px;
+    margin: 2px 16px 16px 16px; 
+}
+
+.product_price{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0 0 10px 16px;
+}
+
+.discount{
+    font-size: 0.75rem;
+    color: var(--color-grey);
+    text-decoration: line-through;
+    margin: 0 0 10px 16px;
+}
+
+.product_cto{
+    padding: 9px 16px;
+    background-color: var(--color-purple);
+    color: white;
+    border: none;
+    margin: 0 0 16px 16px;
+    cursor: pointer;
+}
+
+.product_button_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product_tag01{
+    font-size: 9px;
+    padding: 8px 8px;
+    margin: 6px 16px 16px 8px;
+    color: white;
+    background-color: var(--color-orange);
+}
+
+/* Media query for 768px */
+@media screen and (min-width: 768px){
+
+    .products_container{
+        grid-template-columns: auto auto;
+    }
+
+    .product_image_tablet{
+        display: block;
+        width: 330px;
+        height: 389px;
+    }
+
+    .product_image_mobile, .product_image_desktop{
+        display: none;
+    }
+
+    .product_card{
+        width: 330px;
+    }
+}
+
+/* Media query for 1440px */
+@media screen and (min-width: 1440px){
+
+    .products_container{
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .product_card{
+        width: 350px;
+    }
+    
+    .product_image_desktop{
+        display: block;
+        width: 350px;
+    }
+
+    .product_image_mobile, .product_image_tablet{
+        display: none;
+    }
+}
