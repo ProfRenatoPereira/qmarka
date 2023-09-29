@@ -21,4 +21,4 @@ Todo conteúdo da página é disposto dinamicamente por meio de uma (Fake) Rest 
 
 ![](others/adminPanel.PNG)
 
-Para conferir a página de administrador, [clique aqui](https://lojinha2.vercel.app/admin.html). Por padrão os 6 primeiros produtos foram travados para garantir uma boa usabilidade do site, logo, estes não podem ser editados nem deletados.
+Para conferir a página de administrador, [clique aqui](https://qmarka.vercel.app/admin.html). Por padrão os 6 primeiros produtos foram travados para garantir uma boa usabilidade do site, logo, estes não podem ser editados nem deletados.
