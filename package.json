@@ -1,5 +1,5 @@
 {
-  "name": "Projeto de e-comerce para aula de 2º ano do  Ensini Médio de programação.",
+  "name": "Projeto de e-comerce para aula de 2º ano do  Ensino Médio de programação. Professor Renato Pereira/2023.",
   "version": "1.0.0",
   "description": "Projeto para aperfeiçoar habilidades de programação por apropriação e alteração de códigos e repositórios",
   "main": "api/server.js",
